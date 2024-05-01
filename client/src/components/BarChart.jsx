@@ -57,18 +57,18 @@ const BarChart = () => {
 
     return (
         <div className='border p-6 my-6 shadow-md bg-white rounded-md'>
-            <div >
+            <div className='flex justify-between w-full' >
                 <Heading title={'Horizontal Bar Chart'} description='Visualizes data with a horizontal bar chart, allowing dynamic selection of X and Y axes.' />
-                <div>
-                    <label htmlFor='xAxis'>X-axis:</label>
-                    <select id='xAxis' value={xAxisValue} onChange={handleXAxisChange}>
+                <div className='flex items-center justify-center w-72'>
+                    <label htmlFor='xAxis' className=''>X-axis:</label>
+                    <select id='xAxis' value={xAxisValue} onChange={handleXAxisChange} className='bg-[#94ffdb] outline-none rounded-md p-1 ml-2'>
                         <option value='sector'>Sector</option>
                         <option value='region'>Region</option>
                     </select>
                 </div>
-                <div className='' >
-                    <label htmlFor='yAxis'>Y-axis:</label>
-                    <select id='yAxis' value={yAxisValue} onChange={handleYAxisChange} >
+                <div className='flex items-center justify-center w-72' >
+                    <label htmlFor='yAxis' className=''>Y-axis:</label>
+                    <select id='yAxis' value={yAxisValue} onChange={handleYAxisChange} className='bg-[#94ffdb] outline-none rounded-md p-1 ml-2' >
                         <option value='likelihood'>Likelihood</option>
                         <option value='intensity'>Intensity</option>
                     </select>
@@ -76,7 +76,7 @@ const BarChart = () => {
                 <input type="text" />
             </div>
             <Chart options={options} series={series} type="bar" height={350} />
-        </div>
+        </div >
     );
 };
 

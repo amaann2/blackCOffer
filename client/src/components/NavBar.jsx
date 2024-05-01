@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import logo from './../assets/blogoo.png'
 import RightArrow from './../assets/icons/rightArrow.svg'
-import { LayoutDashboard, BarChart2 } from 'lucide-react'
+import { LayoutDashboard, BarChart2, Map } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 const navLinks = [
@@ -11,25 +11,15 @@ const navLinks = [
         link: '/'
     },
     {
-        name: 'Bar Chart',
+        name: 'Geographical Heat Map',
+        icons: Map,
+        link: '/geoHeatMap'
+    },
+    {
+        name: 'Bar charts',
         icons: BarChart2,
         link: '/barchart'
-    },
-    {
-        name: 'Charts',
-        icons: BarChart2,
-        link: '/charts'
-    },
-    {
-        name: 'Charts',
-        icons: BarChart2,
-        link: '/charts'
-    },
-    {
-        name: 'Charts',
-        icons: BarChart2,
-        link: '/charts'
-    },
+    }
 ]
 const variants = {
     expanded: { width: "20%" },

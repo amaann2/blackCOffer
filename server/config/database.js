@@ -1,7 +1,9 @@
 const mongoose = require("mongoose");
+const MONGOURI =
+  process.env.MONGO_URI || "mongodb://localhost:27017/BlackCoffer";
 const databaseConnection = () => {
   mongoose
-    .connect(process.env.MONGO_URI)
+    .connect(MONGOURI)
     .then(() => {
       console.log("Database is connected successfully");
     })
