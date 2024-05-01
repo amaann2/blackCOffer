@@ -1,4 +1,4 @@
-### MERN STACK - Dashboard visualization assignment blackcoffer
+                                                MERN STACK - Dashboard visualization assignment blackcoffer
 
 MERN stack is the idea of using Javascript/Node for fullstack web development.
 
@@ -26,8 +26,13 @@ npm run dev
 ```
 
 # after running both serer and client
-![Screenshot_42](https://github.com/amaann2/blackCOffer/assets/89026360/299e8cd5-3e4c-4591-a27d-b45abd5581f4)
 
+```bash
+open your browser and visit http://localhost:5173 to view the app
+```
+
+# screenshot of the project
+![Screenshot_42](https://github.com/amaann2/blackCOffer/assets/89026360/299e8cd5-3e4c-4591-a27d-b45abd5581f4)
 ![Screenshot_43](https://github.com/amaann2/blackCOffer/assets/89026360/65a5db25-dc1c-43d8-847b-737c3e13fcc3)
 ![Screenshot_44](https://github.com/amaann2/blackCOffer/assets/89026360/fdc5b620-1cc2-4314-a397-09a506cc7053)
 ![Screenshot_45](https://github.com/amaann2/blackCOffer/assets/89026360/f9400152-39a9-467e-93a9-c9528d50e888)
@@ -35,9 +40,6 @@ npm run dev
 ![geo](https://github.com/amaann2/blackCOffer/assets/89026360/00a0ad3a-0869-4835-a0c7-ce193dd15169)
 
 
-```bash
-open your browser and visit http://localhost:5173 to view the app
-```
 
 
-# screenshot of the project
+
